@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<store>
+    <book>
+        <title>War and Peace</title>
+        <author>Leo Tolstoy</author>
+        <stock>5</stock>
+        <price>5.00</price>
+    </book>
+    <book>
+        <title>One Hundered Years of Soliture</title>
+        <author>Gabriel García Márquez</author>
+        <stock>2</stock>
+        <price>7</price>
+    </book>
+</store>

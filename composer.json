@@ -1,0 +1,35 @@
+{
+    "name": "phpbench/tabular-cli",
+    "description": "CLI for the tabular library. Generate reports from XML files.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Leech",
+            "email": "daniel@dantleech.com"
+        }
+    ],
+    "require": {
+        "php": "~5.4",
+        "webmozart/console": "~1.0@dev",
+        "phpbench/tabular": "@dev"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpBench\\Tabular\\Cli\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpBench\\Tabular\\Cli\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "bin": ["bin/tabular"]
+}
+

@@ -1,0 +1,40 @@
+{
+    "rows": [
+        {
+            "group": "body",
+            "cells": [
+                {
+                    "name": "Title",
+                    "expr": "string(./title)"
+                },
+                {
+                    "name": "Stock",
+                    "expr": "string(./stock)"
+                },
+                {
+                    "name": "Price",
+                    "expr": "number(./price)"
+                },
+                {
+                    "name": "Author",
+                    "expr": "string(./author)"
+                },
+                {
+                    "name": "Stock Value",
+                    "expr": "number(./price) * number(./stock)"
+                }
+            ],
+            "with_query": ".//book"
+        },
+        {
+            "group": "footer",
+            "cells": [
+                {
+                    "name": "Price",
+                    "expr": "sum(//group[@name='body']//cell[@name='Price'])",
+                    "pass": 2
+                }
+            ]
+        }
+    ]
+}
