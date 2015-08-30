@@ -1,12 +1,15 @@
 Tabular CLI
 ===========
 
-This is a simple CLI for the PHPBench
+This is a simple, demonstration, CLI for the PHPBench
 [Tabular](https://github.com/phpbench/tabular) library.
 
 Tabular is a library for generating tabular reports from XML files.
 
 ## Example usage
+
+Check the examples in the `examples` folder of this repository, usage as
+follows:
 
 ````bash
 $ php bin/tabular report examples/phpbench/phpbench.xml examples/phpbench/report.json
