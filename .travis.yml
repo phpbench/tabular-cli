@@ -16,4 +16,4 @@ before_script:
 script: 
     - php bin/tabular report examples/books/books.xml examples/books/report.json
     - php bin/tabular report examples/phpbench/phpbench.xml examples/phpbench/report.json
-    - php bin/tabular report examples/phpunit/tests.xml examples/phpbench/cases.json
+    - php bin/tabular report examples/phpunit/tests.xml examples/phpunit/cases.json
