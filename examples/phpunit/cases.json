@@ -1,0 +1,45 @@
+{
+    "rows": [
+        {
+            "group": "body",
+            "cells": [
+                {
+                    "name": "Test",
+                    "expr": "string(./@name)"
+                },
+                {
+                    "name": "Assertions",
+                    "expr": "number(./@assertions)"
+                },
+                {
+                    "name": "Time",
+                    "expr": "number(./@time)"
+                }
+            ],
+            "with_query": ".//testcase"
+        },
+        {
+            "group": "footer",
+            "cells": [
+            ]
+        },
+        {
+            "group": "footer",
+            "cells": [
+                {
+                    "name": "Test",
+                    "literal": ">> Totals"
+                },
+                {
+                    "name": "Assertions",
+                    "expr": "sum(//@assertions)"
+                },
+                {
+                    "name": "Time",
+                    "expr": "sum(///@time)"
+                }
+            ]
+        }
+    ]
+}
+

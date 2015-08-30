@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Tabular Suite" tests="67" assertions="112" failures="0" errors="0" time="0.081464">
+    <testsuite name="PhpBench\Tabular\Tests\Unit\Definition\ExpanderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/ExpanderTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.003080">
+      <testcase name="testExpandAllColumnNames" class="PhpBench\Tabular\Tests\Unit\Definition\ExpanderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/ExpanderTest.php" line="30" assertions="1" time="0.001039"/>
+      <testcase name="testIterateRows" class="PhpBench\Tabular\Tests\Unit\Definition\ExpanderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/ExpanderTest.php" line="92" assertions="1" time="0.000629"/>
+      <testcase name="testIterateCells" class="PhpBench\Tabular\Tests\Unit\Definition\ExpanderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/ExpanderTest.php" line="144" assertions="1" time="0.000573"/>
+      <testcase name="testReplaceTokens" class="PhpBench\Tabular\Tests\Unit\Definition\ExpanderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/ExpanderTest.php" line="187" assertions="1" time="0.000839"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\LoaderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/LoaderTest.php" tests="10" assertions="18" failures="0" errors="0" time="0.018260">
+      <testcase name="testAcceptDefinitionClasses" class="PhpBench\Tabular\Tests\Unit\LoaderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/LoaderTest.php" line="29" assertions="2" time="0.002405"/>
+      <testcase name="testAcceptFileNames" class="PhpBench\Tabular\Tests\Unit\LoaderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/LoaderTest.php" line="43" assertions="2" time="0.002154"/>
+      <testcase name="testAcceptArray" class="PhpBench\Tabular\Tests\Unit\LoaderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/LoaderTest.php" line="59" assertions="2" time="0.001627"/>
+      <testcase name="testAcceptFileNameNotExist" class="PhpBench\Tabular\Tests\Unit\LoaderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/LoaderTest.php" line="84" assertions="2" time="0.000720"/>
+      <testcase name="testDefinitionInvalidType" class="PhpBench\Tabular\Tests\Unit\LoaderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/LoaderTest.php" line="95" assertions="2" time="0.000622"/>
+      <testcase name="testAcceptFileNameNotValidJson" class="PhpBench\Tabular\Tests\Unit\LoaderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/LoaderTest.php" line="106" assertions="2" time="0.000699"/>
+      <testcase name="testInclude" class="PhpBench\Tabular\Tests\Unit\LoaderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/LoaderTest.php" line="114" assertions="2" time="0.002736"/>
+      <testcase name="testInvalidNumberOfItems" class="PhpBench\Tabular\Tests\Unit\LoaderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/LoaderTest.php" line="146" assertions="2" time="0.000719"/>
+      <testcase name="testColumnNames" class="PhpBench\Tabular\Tests\Unit\LoaderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/LoaderTest.php" line="154" assertions="1" time="0.003217"/>
+      <testcase name="testCompilerPassDefinition" class="PhpBench\Tabular\Tests\Unit\LoaderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Definition/LoaderTest.php" line="189" assertions="1" time="0.003361"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\DefinitionTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/DefinitionTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.000713">
+      <testcase name="testDefinition" class="PhpBench\Tabular\Tests\Unit\DefinitionTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/DefinitionTest.php" line="18" assertions="2" time="0.000713"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\Dom\XPathResolverTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Dom/XPathResolverTest.php" tests="7" assertions="8" failures="0" errors="0" time="0.003774">
+      <testsuite name="PhpBench\Tabular\Tests\Unit\Dom\XPathResolverTest::testFunctionNameReplace" tests="6" assertions="6" failures="0" errors="0" time="0.003096">
+        <testcase name="testFunctionNameReplace with data set #0" assertions="1" time="0.000654"/>
+        <testcase name="testFunctionNameReplace with data set #1" assertions="1" time="0.000491"/>
+        <testcase name="testFunctionNameReplace with data set #2" assertions="1" time="0.000487"/>
+        <testcase name="testFunctionNameReplace with data set #3" assertions="1" time="0.000453"/>
+        <testcase name="testFunctionNameReplace with data set #4" assertions="1" time="0.000517"/>
+        <testcase name="testFunctionNameReplace with data set #5" assertions="1" time="0.000494"/>
+      </testsuite>
+      <testcase name="testUnknownFunction" class="PhpBench\Tabular\Tests\Unit\Dom\XPathResolverTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Dom/XPathResolverTest.php" line="75" assertions="2" time="0.000678"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\Dom\XPathTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Dom/XPathTest.php" tests="2" assertions="4" failures="0" errors="0" time="0.001693">
+      <testcase name="testInvalidXpathExpression" class="PhpBench\Tabular\Tests\Unit\Dom\XPathTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Dom/XPathTest.php" line="24" assertions="2" time="0.000991"/>
+      <testcase name="testInvalidXPathQuery" class="PhpBench\Tabular\Tests\Unit\Dom\XPathTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Dom/XPathTest.php" line="37" assertions="2" time="0.000702"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\Formatter\ArrayRegistryTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Formatter/ArrayRegistryTest.php" tests="3" assertions="5" failures="0" errors="0" time="0.004103">
+      <testcase name="testRegisterRetrieve" class="PhpBench\Tabular\Tests\Unit\Formatter\ArrayRegistryTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Formatter/ArrayRegistryTest.php" line="30" assertions="1" time="0.001370"/>
+      <testcase name="testRegisterExisting" class="PhpBench\Tabular\Tests\Unit\Formatter\ArrayRegistryTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Formatter/ArrayRegistryTest.php" line="43" assertions="2" time="0.001372"/>
+      <testcase name="testUnknownFormatter" class="PhpBench\Tabular\Tests\Unit\Formatter\ArrayRegistryTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Formatter/ArrayRegistryTest.php" line="55" assertions="2" time="0.001361"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\Formatter\Format\BalanceFormatTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Formatter/Format/BalanceFormatTest.php" tests="1" assertions="3" failures="0" errors="0" time="0.000682">
+      <testcase name="testFormat" class="PhpBench\Tabular\Tests\Unit\Formatter\Format\BalanceFormatTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Formatter/Format/BalanceFormatTest.php" line="30" assertions="3" time="0.000682"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\Formatter\Formatter\NumberFormatTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Formatter/Format/NumberFormatTest.php" tests="2" assertions="3" failures="0" errors="0" time="0.001331">
+      <testcase name="testNumberFormat" class="PhpBench\Tabular\Tests\Unit\Formatter\Formatter\NumberFormatTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Formatter/Format/NumberFormatTest.php" line="28" assertions="1" time="0.000654"/>
+      <testcase name="testNonNumeric" class="PhpBench\Tabular\Tests\Unit\Formatter\Formatter\NumberFormatTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Formatter/Format/NumberFormatTest.php" line="40" assertions="2" time="0.000677"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\Formatter\Formatter\PrintfFormatTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Formatter/Format/PrintfFormatTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.000494">
+      <testcase name="testNumberFormat" class="PhpBench\Tabular\Tests\Unit\Formatter\Formatter\PrintfFormatTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/Formatter/Format/PrintfFormatTest.php" line="26" assertions="1" time="0.000494"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\FormatterTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/FormatterTest.php" tests="3" assertions="5" failures="0" errors="0" time="0.009156">
+      <testcase name="testFormatTable" class="PhpBench\Tabular\Tests\Unit\FormatterTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/FormatterTest.php" line="33" assertions="1" time="0.004738"/>
+      <testcase name="testUndefinedClass" class="PhpBench\Tabular\Tests\Unit\FormatterTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/FormatterTest.php" line="75" assertions="2" time="0.002164"/>
+      <testcase name="testUnknownOptions" class="PhpBench\Tabular\Tests\Unit\FormatterTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/FormatterTest.php" line="96" assertions="2" time="0.002254"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\PathUtilTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/PathUtilTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.000974">
+      <testcase name="testGetPathRelative" class="PhpBench\Tabular\Tests\Unit\PathUtilTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/PathUtilTest.php" line="21" assertions="1" time="0.000530"/>
+      <testcase name="testGetPathAbsolute" class="PhpBench\Tabular\Tests\Unit\PathUtilTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/PathUtilTest.php" line="30" assertions="1" time="0.000444"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\SortTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/SortTest.php" tests="4" assertions="13" failures="0" errors="0" time="0.003898">
+      <testcase name="testSort" class="PhpBench\Tabular\Tests\Unit\SortTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/SortTest.php" line="22" assertions="1" time="0.000909"/>
+      <testcase name="testSortTable" class="PhpBench\Tabular\Tests\Unit\SortTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/SortTest.php" line="50" assertions="2" time="0.000910"/>
+      <testcase name="testSortTableGroup" class="PhpBench\Tabular\Tests\Unit\SortTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/SortTest.php" line="77" assertions="4" time="0.000827"/>
+      <testcase name="testSortMultipleColumns" class="PhpBench\Tabular\Tests\Unit\SortTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/SortTest.php" line="139" assertions="6" time="0.001252"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\TableBuilderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TableBuilderTest.php" tests="6" assertions="13" failures="0" errors="0" time="0.008465">
+      <testcase name="testBuildTable" class="PhpBench\Tabular\Tests\Unit\TableBuilderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TableBuilderTest.php" line="39" assertions="2" time="0.001414"/>
+      <testcase name="testWithQuery" class="PhpBench\Tabular\Tests\Unit\TableBuilderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TableBuilderTest.php" line="69" assertions="2" time="0.001803"/>
+      <testcase name="testGroups" class="PhpBench\Tabular\Tests\Unit\TableBuilderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TableBuilderTest.php" line="104" assertions="3" time="0.001281"/>
+      <testcase name="testLiteralCellValue" class="PhpBench\Tabular\Tests\Unit\TableBuilderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TableBuilderTest.php" line="144" assertions="2" time="0.000828"/>
+      <testcase name="testCompilerPass" class="PhpBench\Tabular\Tests\Unit\TableBuilderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TableBuilderTest.php" line="167" assertions="2" time="0.001463"/>
+      <testcase name="testCompilerPassMultipleRows" class="PhpBench\Tabular\Tests\Unit\TableBuilderTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TableBuilderTest.php" line="202" assertions="2" time="0.001676"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\TabularTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TabularTest.php" tests="8" assertions="10" failures="0" errors="0" time="0.017359">
+      <testcase name="testTabularize" class="PhpBench\Tabular\Tests\Unit\TabularTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TabularTest.php" line="51" assertions="1" time="0.002346"/>
+      <testcase name="testInvalidDefinition" class="PhpBench\Tabular\Tests\Unit\TabularTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TabularTest.php" line="84" assertions="2" time="0.001352"/>
+      <testcase name="testWithQuery" class="PhpBench\Tabular\Tests\Unit\TabularTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TabularTest.php" line="98" assertions="1" time="0.002452"/>
+      <testcase name="testGroups" class="PhpBench\Tabular\Tests\Unit\TabularTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TabularTest.php" line="133" assertions="2" time="0.003094"/>
+      <testcase name="testLiteralCellValue" class="PhpBench\Tabular\Tests\Unit\TabularTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TabularTest.php" line="173" assertions="1" time="0.001683"/>
+      <testcase name="testSortSingleColumn" class="PhpBench\Tabular\Tests\Unit\TabularTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TabularTest.php" line="196" assertions="1" time="0.002578"/>
+      <testcase name="testFormat" class="PhpBench\Tabular\Tests\Unit\TabularTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TabularTest.php" line="231" assertions="1" time="0.002238"/>
+      <testcase name="testCustomXPathFunction" class="PhpBench\Tabular\Tests\Unit\TabularTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TabularTest.php" line="261" assertions="1" time="0.001616"/>
+    </testsuite>
+    <testsuite name="PhpBench\Tabular\Tests\Unit\TokenReplacerTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TokenReplacerTest.php" tests="13" assertions="21" failures="0" errors="0" time="0.007482">
+      <testsuite name="PhpBench\Tabular\Tests\Unit\TokenReplacerTest::testScalarReplace" tests="5" assertions="5" failures="0" errors="0" time="0.002515">
+        <testcase name="testScalarReplace with data set #0" assertions="1" time="0.000539"/>
+        <testcase name="testScalarReplace with data set #1" assertions="1" time="0.000489"/>
+        <testcase name="testScalarReplace with data set #2" assertions="1" time="0.000481"/>
+        <testcase name="testScalarReplace with data set #3" assertions="1" time="0.000500"/>
+        <testcase name="testScalarReplace with data set #4" assertions="1" time="0.000506"/>
+      </testsuite>
+      <testsuite name="PhpBench\Tabular\Tests\Unit\TokenReplacerTest::testEmptyTokenBody" tests="3" assertions="6" failures="0" errors="0" time="0.001878">
+        <testcase name="testEmptyTokenBody with data set #0" assertions="2" time="0.000653"/>
+        <testcase name="testEmptyTokenBody with data set #1" assertions="2" time="0.000624"/>
+        <testcase name="testEmptyTokenBody with data set #2" assertions="2" time="0.000601"/>
+      </testsuite>
+      <testsuite name="PhpBench\Tabular\Tests\Unit\TokenReplacerTest::testInvalidParameterContext" tests="2" assertions="4" failures="0" errors="0" time="0.001249">
+        <testcase name="testInvalidParameterContext with data set #0" assertions="2" time="0.000606"/>
+        <testcase name="testInvalidParameterContext with data set #1" assertions="2" time="0.000643"/>
+      </testsuite>
+      <testcase name="testInvalidParameterNameForScalar" class="PhpBench\Tabular\Tests\Unit\TokenReplacerTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TokenReplacerTest.php" line="135" assertions="2" time="0.000605"/>
+      <testcase name="testInvalidParameterType" class="PhpBench\Tabular\Tests\Unit\TokenReplacerTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TokenReplacerTest.php" line="150" assertions="2" time="0.000612"/>
+      <testcase name="testArrayKeyNotExist" class="PhpBench\Tabular\Tests\Unit\TokenReplacerTest" file="/home/daniel/www/phpbench/tabular/tests/Unit/TokenReplacerTest.php" line="165" assertions="2" time="0.000623"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

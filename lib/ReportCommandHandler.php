@@ -24,25 +24,10 @@ class ReportCommandHandler
             $io->writeLine($tableDom->saveXml());
         }
 
-        $rows = array();
-        foreach ($tableDom->xpath()->query('//row') as $rowEl) {
-            $row = array();
-            foreach ($tableDom->xpath()->query('.//cell', $rowEl) as $cellEl) {
-                $colName = $cellEl->getAttribute('name');
-
-                // exclude cells
-                if (isset($config['exclude']) && in_array($colName, $config['exclude'])) {
-                    continue;
-                }
-
-                $row[$colName] = $cellEl->nodeValue;
-            }
-
-            $rows[] = $row;
-        }
+        $rows = $tableDom->toArray();
 
         $table = new Table(TableStyle::solidBorder());
-        $table->setHeaderRow(array_keys($row ?: array()));
+        $table->setHeaderRow(array_keys(reset($rows) ?: array()));
 
         foreach ($rows as $row) {
             $table->addRow($row);
