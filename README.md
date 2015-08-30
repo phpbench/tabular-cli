@@ -1,6 +1,8 @@
 Tabular CLI
 ===========
 
+![travis](https://travis-ci.org/phpbench/tabular-cli.svg?branch=master)
+
 This is a simple, demonstration, CLI for the PHPBench
 [Tabular](https://github.com/phpbench/tabular) library.
 
