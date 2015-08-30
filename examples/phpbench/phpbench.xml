@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<phpbench version="0.5">
+  <benchmark class="\PhpBench\Tests\Functional\benchmarks\ArrayKeysBench">
+    <subject name="benchInArray">
+      <group name="array_keys"/>
+      <variant>
+        <iteration revs="10000" time="617005" memory="648"/>
+        <iteration revs="1000" time="7469" memory="648"/>
+        <iteration revs="100" time="230" memory="648"/>
+        <iteration revs="10" time="31" memory="648"/>
+        <iteration revs="10000" time="610706" memory="648"/>
+        <iteration revs="1000" time="7245" memory="648"/>
+        <iteration revs="100" time="271" memory="648"/>
+        <iteration revs="10" time="29" memory="648"/>
+        <iteration revs="10000" time="681001" memory="648"/>
+        <iteration revs="1000" time="7185" memory="648"/>
+        <iteration revs="100" time="268" memory="648"/>
+        <iteration revs="10" time="29" memory="648"/>
+        <iteration revs="10000" time="589577" memory="648"/>
+        <iteration revs="1000" time="7194" memory="648"/>
+        <iteration revs="100" time="234" memory="648"/>
+        <iteration revs="10" time="46" memory="648"/>
+      </variant>
+    </subject>
+  </benchmark>
+</phpbench>

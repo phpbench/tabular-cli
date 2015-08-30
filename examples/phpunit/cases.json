@@ -1,4 +1,12 @@
 {
+    "classes": {
+        "number": [
+            [ "number", {"decimal_places": 0 }]
+        ],
+        "time": [
+            [ "number", {"decimal_places": 6 }]
+        ]
+    },
     "rows": [
         {
             "group": "body",
@@ -8,10 +16,12 @@
                     "expr": "string(./@name)"
                 },
                 {
+                    "class": "number",
                     "name": "Assertions",
                     "expr": "number(./@assertions)"
                 },
                 {
+                    "class": "time",
                     "name": "Time",
                     "expr": "number(./@time)"
                 }
@@ -31,12 +41,33 @@
                     "literal": ">> Totals"
                 },
                 {
+                    "class": "number",
                     "name": "Assertions",
                     "expr": "sum(//@assertions)"
                 },
                 {
+                    "class": "time",
                     "name": "Time",
                     "expr": "sum(///@time)"
+                }
+            ]
+        },
+        {
+            "group": "footer",
+            "cells": [
+                {
+                    "name": "Test",
+                    "literal": ">> Averages"
+                },
+                {
+                    "class": "number",
+                    "name": "Assertions",
+                    "expr": "average(//@assertions)"
+                },
+                {
+                    "class": "time",
+                    "name": "Time",
+                    "expr": "average(//@time)"
                 }
             ]
         }

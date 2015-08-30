@@ -1,0 +1,12 @@
+{
+    "classes": {
+        "memory": [
+            [ "number" ],
+            [ "printf", { "format": "%s<comment>b</comment>" }]
+        ],
+        "time": [
+            [ "number", { "decimal_places": 4 }],
+            [ "printf", { "format": "%s<comment>\u03bcs</comment>" }]
+        ]
+    }
+}

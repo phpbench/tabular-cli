@@ -13,7 +13,7 @@ class ReportCommandHandler
 {
     public function handle(Args $args, IO $io, Command $command)
     {
-        $tabular = new Tabular();
+        $tabular = Tabular::getInstance();
 
         $dom = new \DOMDocument('1.0');
         $dom->load($args->getArgument('xml'));
