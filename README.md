@@ -14,10 +14,10 @@ Check the examples in the `examples` folder of this repository, usage as
 follows:
 
 ````bash
-$ php bin/tabular report examples/phpbench/phpbench.xml examples/phpbench/report.json
+$ php bin/tabular report examples/books/books.xml examples/books/report.json
 ````
 
-![results](https://cloud.githubusercontent.com/assets/530801/9567716/a1773168-4f35-11e5-964a-460b45e60be7.png)
+![tabular-cli-phpbench](https://cloud.githubusercontent.com/assets/530801/9567802/fee58ac8-4f37-11e5-837e-11fe57454066.png)
 
 ## Definition file
 
